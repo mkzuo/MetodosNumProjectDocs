@@ -13,7 +13,7 @@ using System.Text;
 
 namespace MetodosNumProject.FChartFunctions
 {
-    internal class LinealFunc : FChartFunc // Debe extender de FChartFunc
+    public class LinealFunc : FChartFunc // Debe extender de FChartFunc
     {
         double m;
         double n;
@@ -36,5 +36,24 @@ namespace MetodosNumProject.FChartFunctions
 
     }
 }
+
+```
+
+## Como Graficar una funcion
+
+```
+
+CuadraticFunc func1 = new CuadraticFunc(2,1,3);
+
+CuadraticFunc func2 = new CuadraticFunc(-2, 1, 3);
+
+this.MAIN_CHART.PlotFunction(func1, -5, 20, "Funcion Cuadratica", 4);
+
+this.MAIN_CHART.PlotFunction(func2, -5, 20, "Funcion Cuadratica 2", 4);
+            
+
+this.MAIN_CHART.SetAxisXRange(-20, 20);
+
+this.MAIN_CHART.SetAxisYRange(-50, 200);
 
 ```
