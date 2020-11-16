@@ -41,7 +41,7 @@ namespace MetodosNumProject.FChartFunctions
 
 ## Como Graficar una funcion
 
-```
+```C#
 
 CuadraticFunc func1 = new CuadraticFunc(2,1,3);
 
