@@ -4,6 +4,7 @@ Documentation for Visual C# MetodosNumProject
 ##Ejemplo para crear un Objeto Funcion:
 
 ```C#
+// Archivo "LinealFunc.cs" -> dentro de la carpeta "FChartFuncs"
 
 using System;
 using System.Collections.Generic;
